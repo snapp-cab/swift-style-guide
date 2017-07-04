@@ -1,4 +1,5 @@
 # The Official Snapp Swift Style Guide.
+### TODO: Update for Swift 4
 ### Updated for Swift 3
 
 We created this style guide to keep the code in our codebase nice and consistent — even though we have many different developers working on the code. Our overarching goals are clarity, consistency and brevity, in that order.
