@@ -1,6 +1,6 @@
 # The Official Snapp Swift Style Guide.
-### TODO: Update for Swift 4
-### Updated for Swift 3
+
+### Updated for Swift 3 (TODO: Update for Swift 4)
 
 We created this style guide to keep the code in our codebase nice and consistent — even though we have many different developers working on the code. Our overarching goals are clarity, consistency and brevity, in that order.
 
@@ -8,7 +8,6 @@ We created this style guide to keep the code in our codebase nice and consistent
 
 * [Correctness](#correctness)
 * [Naming](#naming)
-  <!-- * [Prose](#prose) -->
   * [Delegates](#delegates)
   * [Use Type Inferred Context](#use-type-inferred-context)
   * [Generics](#generics)
@@ -24,7 +23,6 @@ We created this style guide to keep the code in our codebase nice and consistent
   * [Use of `self`](#use-of-self)
   * [Protocol Conformance](#protocol-conformance)
   * [Computed Properties](#computed-properties)
-  <!-- * [Final](#final) -->
 * [Function Declarations](#function-declarations)
 * [Closure Expressions](#closure-expressions)
 * [Types](#types)
@@ -44,8 +42,6 @@ We created this style guide to keep the code in our codebase nice and consistent
 * [Semicolons](#semicolons)
 * [Parentheses](#parentheses)
 * [Organization and Bundle Identifier](#organization-and-bundle-identifier)
-<!-- * [Copyright Statement](#copyright-statement) -->
-<!-- * [Smiley Face](#smiley-face) -->
 * [References](#references)
 
 
@@ -82,21 +78,6 @@ Descriptive and consistent naming makes software easier to read and understand. 
 - choosing good parameter names that serve as documentation
 - labeling closure and tuple parameters
 - taking advantage of default parameters
-
-<!-- ### Prose
-
-When referring to methods in prose, being unambiguous is critical. To refer to a method name, use the simplest form possible.
-
-1. Write the method name with no parameters.  **Example:** Next, you need to call the method `addTarget`.
-2. Write the method name with argument labels.  **Example:** Next, you need to call the method `addTarget(_:action:)`.
-3. Write the full method name with argument labels and types. **Example:** Next, you need to call the method `addTarget(_: Any?, action: Selector?)`.
-
-For the above example using `UIGestureRecognizer`, 1 is unambiguous and preferred.
-
-**Pro Tip:** You can use Xcode's jump bar to lookup methods with argument labels.
-
-![Methods in Xcode jump bar](screens/xcode-jump-bar.png) -->
-
 
 ### Class Prefixes
 
@@ -896,56 +877,6 @@ let playerMark = (player == current ? "X" : "O")
 Where an Xcode project is involved, the organization should be set to `Snapp Inc.` and the Bundle Identifier set to `ir.snapp.ProjectName` where `ProjectName` is the name of the tutorial project.
 
 ![Xcode Project settings](screens/project_settings.png)
-
-<!-- ## Copyright Statement
-
-The following copyright statement should be included at the top of every source file:
-
-```swift
-/**
-* Copyright (c) 2017 Snapp Inc.
-*
-* Permission is hereby granted, free of charge, to any person obtaining a copy
-* of this software and associated documentation files (the "Software"), to deal
-* in the Software without restriction, including without limitation the rights
-* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-* copies of the Software, and to permit persons to whom the Software is
-* furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included in
-* all copies or substantial portions of the Software.
-*
-* Notwithstanding the foregoing, you may not use, copy, modify, merge, publish,
-* distribute, sublicense, create a derivative work, and/or sell copies of the
-* Software in any work that is designed, intended, or marketed for pedagogical or
-* instructional purposes related to programming, coding, application development,
-* or information technology.  Permission for such use, copying, modification,
-* merger, publication, distribution, sublicensing, creation of derivative works,
-* or sale is expressly withheld.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-* THE SOFTWARE.
-*/
-``` -->
-
-<!-- ## Smiley Face
-
-Smiley faces are a very prominent style feature of the [raywenderlich.com](https://www.raywenderlich.com/) site! It is very important to have the correct smile signifying the immense amount of happiness and excitement for the coding topic. The closing square bracket `]` is used because it represents the largest smile able to be captured using ASCII art. A closing parenthesis `)` creates a half-hearted smile, and thus is not preferred.
-
-**Preferred:**
-```
-:]
-```
-
-**Not Preferred:**
-```
-:)
-```   -->
 
 ## References
 
