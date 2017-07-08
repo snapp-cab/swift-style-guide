@@ -2,7 +2,7 @@
 
 ### Updated for Swift 3 (TODO: Update for Swift 4)
 
-We created this style guide to keep the code in our codebase nice and consistent — even though we have many different developers working on the code. Our overarching goals are clarity, consistency and brevity, in that order.
+We created this style guide to keep the code in our codebase nice and consistent — even though we have many developers working on the code. Our overarching goals are clarity, consistency and brevity, in that order.
 
 ## Table of Contents
 
@@ -880,6 +880,7 @@ Where an Xcode project is involved, the organization should be set to `Snapp Inc
 
 ## References
 
+* [Ray Wenderlich's Swift Style Guide](https://github.com/raywenderlich/swift-style-guide)
 * [The Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
 * [The Swift Programming Language](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097-CH3-ID0)
 * [Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html)
